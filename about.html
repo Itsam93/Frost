@@ -13,48 +13,63 @@
     />
   </head>
   <body>
-    <header>
-      <a><p>Frost</p></a>
-      <menu>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <section class="dropdown">
-            <li><a href="about.html">About Us</a></li>
-            <section class="dropdown-content">
-              <li><a href="#">Our Board</a></li>
-            </section>
-          </section>
+    <menu>
+      <nav class="navbar" aria-label="Main Navigation">
+        <div class="logo">Frost</div>
 
-          <section class="dropdown">
-            <li><a href="#">Services</a></li>
-            <section class="dropdown-content">
+        <!-- Hamburger Button -->
+        <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="about.html">About Us</a>
+            <ul class="dropdown-content">
+              <li><a href="about.html">Our Board</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Services</a>
+            <ul class="dropdown-content">
               <li><a href="#">Annuity Loans</a></li>
-              <li><a href="#">IWills</a></li>
+              <li><a href="#">Wills</a></li>
               <li><a href="#">Short-Term Financing & Equipment Leasing</a></li>
               <li><a href="#">Trust Services</a></li>
-            </section>
-          </section>
+            </ul>
+          </li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
-      </menu>
-    </header>
+      </nav>
+    </menu>
 
-    <div class="main">
-      <h1>Our Board</h1>
-      <div class="main-content">
-        <div class="first-flex">
-          <div class="first-left">
-            <img src="IMAGES/OHO-350x350.jpg" alt="#" />
-            <h3>Mr. Oye Hassan-Odukale</h3>
-            <span>Chairman (Non-Executive)</span>
+    <main class="board">
+      <header>
+        <h1>Our Board</h1>
+      </header>
+
+      <section class="board-members">
+        <div class="board-row">
+          <article class="board-member">
+            <figure>
+              <img
+                src="IMAGES/OHO-350x350.jpg"
+                alt="Portrait of Mr. Oye Hassan-Odukale"
+              />
+              <figcaption>
+                <h3>Mr. Oye Hassan-Odukale</h3>
+                <p class="role">Chairman (Non-Executive)</p>
+              </figcaption>
+            </figure>
             <p>
               Mr. Oye Hassan Odukale is the Chairman, Leadway Holdings Limited
               and FBN, UK. He is the immediate past Managing Director/Chief
               Executive Officer of Leadway Assurance Company Limited. He is a
               Munich Re scholar, being the First West African recipient of
               Munich Re and Georgia State University International Visiting
-              Fellows insurance Program. <br />
+              Fellows insurance Program.
+            </p>
+            <p>
               Mr. Oye Hassan-Odukale served on the Executive Committee of the
               African Insurance Organization, and was the Chairman of the
               Franco-Nigeria Chamber of Commerce (FNCC) and the Lagos State
@@ -63,40 +78,49 @@
               Olympics of Nigeria (SON) and is a Member of the Order of the
               Federal Republic (MFR).
             </p>
-          </div>
+          </article>
 
-          <div class="first-middle">
-            <img src="IMAGES/Oye.jpg" alt="#" />
-            <h3>Mr. Muftau Oyegunle</h3>
-            <span>Director (Non-Executive)</span>
+          <article class="board-member">
+            <figure>
+              <img src="IMAGES/Oye.jpg" alt="Portrait of Mr. Muftau Oyegunle" />
+              <figcaption>
+                <h3>Mr. Muftau Oyegunle</h3>
+                <p class="role">Director (Non-Executive)</p>
+              </figcaption>
+            </figure>
             <p>
               Mr. Muftau Olakunle Oyegunle is the serving President of the
               Chartered Insurance Institute of Nigeria (CIIN). He has vast
-              experience in insurance and commercial underwriting having rising
+              experience in insurance and commercial underwriting having risen
               to the position of General Manager, Commercial and Operations
               during his stewardship at Leadway Assurance Company Limited.
-              <br />
+            </p>
+            <p>
               Mr. Oyegunle is a Fellow of the Chartered Insurance Institute,
               London, an alumnus of the University of Ibadan and a Non-Executive
               Director at Prestige Assurance Plc.
             </p>
-          </div>
+          </article>
 
-          <div class="first-right">
-            <img
-              src="IMAGES/Board-Leadership-ImageArtboard-1-copy-350x350.jpg"
-              alt="#"
-            />
-            <h3>Mr. Tunde Hassan-Odukale</h3>
-            <span>Director (Non-Executive)</span>
+          <article class="board-member">
+            <figure>
+              <img
+                src="IMAGES/Board-Leadership-ImageArtboard-1-copy-350x350.jpg"
+                alt="Portrait of Mr. Tunde Hassan-Odukale"
+              />
+              <figcaption>
+                <h3>Mr. Tunde Hassan-Odukale</h3>
+                <p class="role">Director (Non-Executive)</p>
+              </figcaption>
+            </figure>
             <p>
               Mr. Tunde Hassan-Odukale is the Managing Director of Leadway
               Assurance Company Limited and Chairman, First Bank of Nigeria
               Limited. He is a graduate of the University of London and City
               University, London, holds a Bachelor's degree in Pure Mathematics
-              and a postgraduate diploma in Actuarial Science. He is an ordinary
-              member of both the Royal Society of Mathematics and Pensions
-              Management Institute. <br />
+              and a postgraduate diploma in Actuarial Science.
+            </p>
+            <p>
               He has attended The Advanced Management Program of Lagos Business
               School and several courses on Investment Management and Portfolio
               design. He has a strong bias for Information Technology and sits
@@ -104,36 +128,50 @@
               include Digital Jewels Limited, Leadway Pensure PFA Limited and
               Leadway Asset Management Company Limited.
             </p>
-          </div>
-        </div>
-
-        <div class="second-flex">
-          <div class="second-left">
-            <img src="IMAGES/fE-350x350.jpg" alt="#" />
-            <h3>Mrs. Fehintola Obatusin</h3>
-            <span>Director (Non-Executive)</span>
+          </article>
+          <article class="board-member">
+            <figure>
+              <img
+                src="IMAGES/fE-350x350.jpg"
+                alt="Portrait of Mrs. Fehintola Obatusin"
+              />
+              <figcaption>
+                <h3>Mrs. Fehintola Obatusin</h3>
+                <p class="role">Director (Non-Executive)</p>
+              </figcaption>
+            </figure>
             <p>
               Mrs. Fehintola Obatusin is a successful business entrepreneur who
               is the Managing Director at Lagosia, a fast rising restaurant in
               the urban area of Lagos state. She also doubles as the Managing
-              Director at Pebbles Limited. <br />
+              Director at Pebbles Limited.
+            </p>
+            <p>
               Mrs. Obatusin had previously served on the Board of Leadway
               Assurance and is a proud alumnus of Ahmadu Bello University,
               Zaria.
             </p>
-          </div>
+          </article>
 
-          <div class="second-middle">
-            <img src="IMAGES/Head-shot-350x350.jpg" alt="#" />
-            <h3>Tokunbo Ibrahim-Okuribido</h3>
-            <span>Director (Non-Executive, Independent)</span>
+          <article class="board-member">
+            <figure>
+              <img
+                src="IMAGES/Head-shot-350x350.jpg"
+                alt="Portrait of Tokunbo Ibrahim-Okuribido"
+              />
+              <figcaption>
+                <h3>Tokunbo Ibrahim-Okuribido</h3>
+                <p class="role">Director (Non-Executive, Independent)</p>
+              </figcaption>
+            </figure>
             <p>
               Mrs. Tokunbo Ibrahim-Okuribido is currently the Head of Public
               Affairs; Sub-Saharan Africa, Glovoapp and had held numerous senior
               positions within her area of expertise, prior to her current role.
-              <br />
               She is a Regulatory Compliance Professional with about 12 years of
               experience across local and international corporate organizations.
+            </p>
+            <p>
               She has served on the management team of a couple of blue chip
               companies and consultancy firms, providing operational and
               regulatory direction as well as upholding corporate governance
@@ -144,40 +182,47 @@
               corporate restructuring transactions including take-overs, mergers
               and acquisitions.
             </p>
-          </div>
+          </article>
 
-          <div class="second-right">
-            <img src="IMAGES/wura-350x350.jpg" alt="#" />
-            <h3>Mr. Ayodeji Wuraola</h3>
-            <span>Managing Director / CEO</span>
+          <article class="board-member">
+            <figure>
+              <img
+                src="IMAGES/wura-350x350.jpg"
+                alt="Portrait of Mr. Ayodeji Wuraola"
+              />
+              <figcaption>
+                <h3>Mr. Ayodeji Wuraola</h3>
+                <p class="role">Managing Director / CEO</p>
+              </figcaption>
+            </figure>
             <p>
               Mr. Ayodeji Wuraola is an alumnus of the University of Ilorin.
               Over the course of his career, he has served at various
               institutions, which include UBA Trustees Limited as Senior Manager
-              and Principal Manager. <br />
-              He joined Leadway Capital and Trust Limited as the Chief Operating
-              Officer, a position he occupied and rose to become the Managing
-              Director of the company. He is well respected for his managerial
-              ability and prudent use of resources.
+              and Principal Manager. He joined Leadway Capital and Trust Limited
+              as the Chief Operating Officer, a position he occupied and rose to
+              become the Managing Director of the company.
             </p>
-          </div>
+            <p>
+              He is well respected for his managerial ability and prudent use of
+              resources.
+            </p>
+          </article>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
+    <!-- Footer -->
     <footer>
-      <section class="first-section">
-        <section class="logo">
-          <img
-            src="IMAGES/leadway-capital-and-trusts-transparent-logo-1.png"
-            alt="#"
-          />
+      <div class="first-section">
+        <div class="logo">
+          <p><strong>Frost</strong></p>
           <p>Trusting us with your tomorrow</p>
-        </section>
+        </div>
 
-        <section class="line-one">
+        <nav aria-label="Footer Links">
           <ul>
-            <li><a href="#">Annuity loans</a></li>
+            <li><a href="#">Annuity Loans</a></li>
             <li><a href="#">Equipment Leasing</a></li>
             <li><a href="#">Short Term Finance</a></li>
             <li><a href="#">Wills</a></li>
@@ -186,39 +231,32 @@
             <li><a href="#">Data Subject Access Request</a></li>
             <li><a href="#">Whistleblowing</a></li>
           </ul>
-        </section>
 
-        <section class="line-two">
           <ul>
             <li><a href="#">Mortgage Trusts</a></li>
             <li><a href="#">Investment Trusts</a></li>
-            <li><a href="#">Unit Trusts and Mutual Funds</a></li>
+            <li><a href="#">Unit Trusts & Mutual Funds</a></li>
             <li><a href="#">Employee Share Ownership Trusts</a></li>
             <li><a href="#">Nominee Shareholdings</a></li>
             <li><a href="#">Investment Portal</a></li>
           </ul>
-        </section>
 
-        <section class="line-three">
           <ul>
             <li><a href="#">Debenture Trusts</a></li>
             <li><a href="#">Trust of Consortium Lending</a></li>
-            <li><a href="#">Management of other Trusts</a></li>
+            <li><a href="#">Management of Other Trusts</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Our Board</a></li>
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Whistleblowing</a></li>
           </ul>
-        </section>
-      </section>
+        </nav>
+      </div>
 
-      <section class="second-section">
-        <p>
-          Leadway Capital & Trusts is a Subsidiary of Leadway Assurance Company
-          Limited
-        </p>
-      </section>
+      <div class="second-section">
+        <p>Frost Assurance Company Limited</p>
+      </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>

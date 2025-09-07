@@ -8,185 +8,162 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <menu>
+      <nav class="navbar" aria-label="Main Navigation">
+        <div class="logo">Frost</div>
+
+        <!-- Hamburger Button -->
+        <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="about.html">About Us</a>
+            <ul class="dropdown-content">
+              <li><a href="about.html">Our Board</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Services</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Annuity Loans</a></li>
+              <li><a href="#">Wills</a></li>
+              <li><a href="#">Short-Term Financing & Equipment Leasing</a></li>
+              <li><a href="#">Trust Services</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </menu>
+
     <main>
-      <header>
-        <a><p>Frost</p></a>
-        <menu>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <section class="dropdown">
-              <li><a href="about.html">About Us</a></li>
-              <section class="dropdown-content">
-                <li><a href="about.html">Our Board</a></li>
-              </section>
-            </section>
-
-            <section class="dropdown">
-              <li><a href="#">Services</a></li>
-              <section class="dropdown-content">
-                <li><a href="#">Annuity Loans</a></li>
-                <li><a href="#">IWills</a></li>
-                <li>
-                  <a href="#">Short-Term Financing & Equipment Leasing</a>
-                </li>
-                <li><a href="#">Trust Services</a></li>
-              </section>
-            </section>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </menu>
-      </header>
-
+      <!-- Hero Section -->
       <section class="first">
         <h1>Our Wills are simple and quick to get.</h1>
-        <p>Get yours today</p>
         <button>Learn More</button>
+      </section>
+
+      <!-- About Section -->
+      <section class="about">
+        <h2>About Us</h2>
+        <p>
+          Our primary aim is to render trust services for the benefit of
+          corporate bodies, individuals, governments, government agencies, and
+          parastatals. We also undertake general investment activities and are
+          able to finance and/or invest in a variety of transactions where
+          management finds it expedient to do so.
+        </p>
+        <button>Learn More</button>
+      </section>
+
+      <!-- Services Section -->
+      <section class="third">
+        <h2>Services</h2>
+        <div class="services">
+          <article class="service">
+            <img src="IMAGES/7xm.xyz627439.jpg" alt="Annuity Loans" />
+            <h3>Annuity Loans</h3>
+            <p>
+              An annuity loan is a type of loan where an annuity holder
+              (Annuitant) borrows money against the cash value of the annuity
+              contract with the insurer.
+            </p>
+            <button>Read More</button>
+          </article>
+
+          <article class="service">
+            <img src="IMAGES/7xm.xyz371154.jpg" alt="Wills" />
+            <h3>Wills</h3>
+            <p>
+              A Will is a legal document by which a person distributes his or
+              her property at death and also appoints two or more persons to
+              manage the estate.
+            </p>
+            <button>Read More</button>
+          </article>
+
+          <article class="service">
+            <img src="IMAGES/7xm.xyz281733.jpg" alt="Trust Services" />
+            <h3>Trust Services</h3>
+            <p>
+              As Trustees, we act in a capacity of trust on behalf of lenders
+              and investors by ensuring that their interests are represented.
+            </p>
+            <button>Read More</button>
+          </article>
+
+          <article class="service">
+            <img src="IMAGES/7xm.xyz845559.jpg" alt="Short-Term Financing" />
+            <h3>Short-Term Financing</h3>
+            <p>
+              For business or personal considerations, corporate bodies and
+              individuals may have financing inadequacies, and we provide
+              solutions when liquidity is available.
+            </p>
+            <button>Read More</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section class="fourth">
+        <h2>Our Blog</h2>
+        <div class="blog">
+          <article>
+            <h5>Estate Planning</h5>
+            <time datetime="2020-11-13">November 13, 2020</time>
+            <h3>How Happy Do You Want To Retire?</h3>
+            <p>
+              "Oh Yes! Meet the latest B&B pharmaceutical employee," Ade wrote
+              on his WhatsApp status after jumping with delight...
+            </p>
+          </article>
+
+          <article>
+            <h5>Estate Planning</h5>
+            <time datetime="2020-10-16">October 16, 2020</time>
+            <h3>Five Questions That Help You Find Out If You Need A Will</h3>
+            <p>
+              "Oh Yes! Meet the latest B&B pharmaceutical employee," Ade wrote
+              on his WhatsApp status after jumping with delight...
+            </p>
+          </article>
+
+          <article>
+            <h5>Estate Planning</h5>
+            <time datetime="2020-07-20">July 20, 2020</time>
+            <h3>Here’s How To Successfully Manage Your Personal Finances</h3>
+            <p>
+              "Money" is one of everyone’s favourite words. But when it comes to
+              managing finances, most people take a step back...
+            </p>
+          </article>
+        </div>
+
+        <div class="inner-sec">
+          <button>VIEW ALL POSTS</button>
+        </div>
       </section>
     </main>
 
-    <section class="about">
-      <h1>About Us</h1>
-      <p>
-        Our primary aim is to render trust services for the benefit of corporate
-        bodies, individuals, governments, government agencies, and parastals. We
-        also undertake general investment activities and are able to finance
-        and/or invest in a variety of transactions where management finds it
-        expedient to do so.
-      </p>
-      <button>Learn More</button>
-    </section>
-
-    <section class="third">
-      <h1>Services</h1>
-      <section class="services">
-        <section class="one">
-          <img src="IMAGES/7xm.xyz627439.jpg" alt="" />
-          <h4>Annuity Loans</h4>
-          <p>
-            An annuity loan is a type of loan where an annuity holder
-            (Annuitant) borrows money against the cash value of the annuity
-            contract with the insurer
-          </p>
-        </section>
-
-        <section class="two">
-          <img src="IMAGES/7xm.xyz371154.jpg" alt="" />
-          <h4>Wills</h4>
-          <p>
-            A Will is a legal document by which a person distributes his or her
-            property at death and also appoints two or more persons to manage
-            his or her estate.
-          </p>
-        </section>
-
-        <section class="three">
-          <img src="/IMAGES/7xm.xyz281733.jpg" alt="" />
-          <h4>Trust Services</h4>
-          <p>
-            As Trustees, we act in a capacity of trust on behalf of lenders and
-            investors as the case may be, by ensuring that their interests are
-            well represented and their...
-          </p>
-        </section>
-
-        <section class="four">
-          <img src="IMAGES/7xm.xyz845559.jpg" alt="" />
-          <h4>Short-Term Financing</h4>
-          <p>
-            For business or personal considerations, corporate bodies, as well
-            as individuals, have financing inadequacies and from time to time we
-            have the liquidity to…
-          </p>
-        </section>
-      </section>
-      <section class="read">
-        <section class="one-button">
-          <button>Read More</button>
-        </section>
-
-        <section class="two-button">
-          <button>Read More</button>
-        </section>
-
-        <section class="three-button">
-          <button>Read More</button>
-        </section>
-
-        <section class="four-button">
-          <button>Read More</button>
-        </section>
-      </section>
-    </section>
-
-    <section class="fourth">
-      <section class="inner-first">
-        <h1>Our Blog</h1>
-        <section class="blog">
-          <section class="left">
-            <h5>Estate Planning</h5>
-            <span>November 13, 2020</span>
-            <h3>How Happy Do You Want To Retire?</h3>
-            <p>
-              "Oh Yes! Meet the latest B&B pharmaceutical employee" Ade wrote on
-              his WhatsApp status after jumping with delight. He was more than
-              proud of hhis new job and so were...
-            </p>
-            <footer>
-              <p>leadwaycapital</p>
-            </footer>
-          </section>
-
-          <section class="middle">
-            <h5>Estate Planning</h5>
-            <span>October 16, 2020</span>
-            <h3>Five Questions That Help You Find Out If You Need A Will</h3>
-            <p>
-              "Oh Yes! Meet the latest B&B pharmaceutical employee" Ade wrote on
-              his WhatsApp status after jumping with delight. He was more than
-              proud of hhis new job and so were...
-            </p>
-            <footer>
-              <p>leadwaycapital</p>
-            </footer>
-          </section>
-
-          <section class="right">
-            <h5>Estate Planning</h5>
-            <span>July 20, 2020</span>
-            <h3>HERE'S HOW TO SUCCESSFULLY MANAGE YOUR PERSONAL FINANCES</h3>
-            <p>
-              "Money" is one of everyone;s favourite words. But when it comes to
-              managing finances, most people take a step back. Few people are
-              excited about worrying about how much money...
-            </p>
-            <footer>
-              <p>leadwaycapital</p>
-            </footer>
-          </section>
-        </section>
-      </section>
-
-      <section class="inner-sec">
-        <button>VIEW ALL POSTS</button>
-      </section>
-    </section>
-
+    <!-- Footer -->
     <footer>
-      <section class="first-section">
-        <section class="logo">
-          <a><p>Frost</p></a>
+      <div class="first-section">
+        <div class="logo">
+          <p><strong>Frost</strong></p>
           <p>Trusting us with your tomorrow</p>
-        </section>
+        </div>
 
-        <section class="line-one">
+        <nav aria-label="Footer Links">
           <ul>
-            <li><a href="#">Annuity loans</a></li>
+            <li><a href="#">Annuity Loans</a></li>
             <li><a href="#">Equipment Leasing</a></li>
             <li><a href="#">Short Term Finance</a></li>
             <li><a href="#">Wills</a></li>
@@ -195,39 +172,32 @@
             <li><a href="#">Data Subject Access Request</a></li>
             <li><a href="#">Whistleblowing</a></li>
           </ul>
-        </section>
 
-        <section class="line-two">
           <ul>
             <li><a href="#">Mortgage Trusts</a></li>
             <li><a href="#">Investment Trusts</a></li>
-            <li><a href="#">Unit Trusts and Mutual Funds</a></li>
+            <li><a href="#">Unit Trusts & Mutual Funds</a></li>
             <li><a href="#">Employee Share Ownership Trusts</a></li>
             <li><a href="#">Nominee Shareholdings</a></li>
             <li><a href="#">Investment Portal</a></li>
           </ul>
-        </section>
 
-        <section class="line-three">
           <ul>
             <li><a href="#">Debenture Trusts</a></li>
             <li><a href="#">Trust of Consortium Lending</a></li>
-            <li><a href="#">Management of other Trusts</a></li>
+            <li><a href="#">Management of Other Trusts</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Our Board</a></li>
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Whistleblowing</a></li>
           </ul>
-        </section>
-      </section>
+        </nav>
+      </div>
 
-      <section class="second-section">
-        <p>
-          Leadway Capital & Trusts is a Subsidiary of Leadway Assurance Company
-          Limited
-        </p>
-      </section>
+      <div class="second-section">
+        <p>Frost Assurance Company Limited</p>
+      </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
